@@ -1,0 +1,16 @@
+{
+  "Customers": [
+    {
+      "Created at": "14-11-2023 16:33:28",
+      "Email": "paulo@mail.com",
+      "First Name": "paulo",
+      "Last Name": "akello"
+    },
+    {
+      "Created at": "14-11-2023 16:33:28",
+      "Email": "paulo@mail.com",
+      "First Name": "paulo1",
+      "Last Name": "akello1"
+    }
+  ]
+}
