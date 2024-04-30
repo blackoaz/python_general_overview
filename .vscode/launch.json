@@ -8,6 +8,21 @@
       "args": [],
       "cwd": "/Users/pauloakello/Desktop/paulo/python",
       "program": "/Users/pauloakello/Desktop/paulo/python/build/Debug/outDebug"
+    },
+    {
+      "name": "Docker: Python - General",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug",
+      "python": {
+        "pathMappings": [
+          {
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "/app"
+          }
+        ],
+        "projectType": "general"
+      }
     }
   ]
 }
