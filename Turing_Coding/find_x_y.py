@@ -9,10 +9,10 @@ def solution(x:int, y:int, z:List[List[int]]):
                 return i      
         # if list1: 
         #     return list1 
-          #else return -1  
+        # else: return -1  
         return -1
 
-result = solution(1, 1, [[0, 0], [0, 4], [0, 6], [7, 8]])
+result = solution(1, 0, [[0, 1], [0, 4], [0, 6], [7, 8]])
 print(result) 
 
 def matrix():
