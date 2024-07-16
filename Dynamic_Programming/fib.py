@@ -23,5 +23,5 @@ def fib2(n):
     print(list1)
     print(i)
     return sum
-# result = fib2(10)
-# print(result) 
+result = fib2(100)
+print(result) 
