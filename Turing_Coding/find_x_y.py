@@ -3,13 +3,9 @@ def solution(x:int, y:int, z:List[List[int]]):
         list1 = []
         for i in range(len(z)):
             if z[i][0] == x or z[i][1] == y:
-                print('z:',z[i][0] , '==', x , 'and', 'z:',z[i][1] , '==', y)
-                #print(i)
+                print('z:',z[i][0] , '==', x , 'and', 'y:',z[i][1] , '==', y)
                 list1.append(i) 
-                return i      
-        # if list1: 
-        #     return list1 
-        # else: return -1  
+                return i  
         return -1
 
 result = solution(1, 0, [[0, 1], [0, 4], [0, 6], [7, 8]])

@@ -32,6 +32,9 @@ def insertion_sort_descending():
     print(A)
 
 #insertion_sort_descending()
+"""
+T(n)=c1n+c2(n-1)+c4(n-1)+c5∑i=2nti+c6∑i=2n(ti-1)+c7∑i=2n(ti-1)+c8(n-1)
+"""
 
 
 
